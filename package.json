@@ -1,0 +1,49 @@
+{
+  "name": "fetch-decorators",
+  "version": "1.0.0-alpha.1",
+  "description": "Decorators for the WHATWG fetch API.",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ndhoule/fetch-decorators.git"
+  },
+  "keywords": [
+    "fetch"
+  ],
+  "author": "Nathan Houle <nathan@nathanhoule.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ndhoule/fetch-decorators/issues"
+  },
+  "homepage": "https://github.com/ndhoule/fetch-decorators#readme",
+  "dependencies": {
+    "eventemitter3": "^3.1.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.0.0-rc.1",
+    "@babel/core": "7.0.0-rc.1",
+    "@babel/polyfill": "7.0.0-rc.1",
+    "@babel/preset-env": "7.0.0-rc.1",
+    "@babel/preset-typescript": "7.0.0-rc.1",
+    "@babel/register": "7.0.0-rc.1",
+    "@types/jest": "^23.3.1",
+    "@types/power-assert": "^1.5.0",
+    "@types/sinon": "^5.0.1",
+    "@types/uuid": "^3.4.3",
+    "babel-preset-power-assert": "^2.0.0",
+    "jest": "^23.5.0",
+    "jest-junit": "^5.1.0",
+    "power-assert": "^1.6.0",
+    "prettier": "1.14.2",
+    "sinon": "^6.1.5",
+    "ts-jest": "^23.1.3",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.14.0",
+    "tslint-plugin-prettier": "^1.3.0",
+    "typescript": "^3.0.1"
+  }
+}
